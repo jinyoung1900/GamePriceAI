@@ -2,9 +2,7 @@
 
 When I was working in a game company, it was pretty hard determining the price just from guesswork alone. This is a small project I want to launch to see if I can solve that issue with predictive AI, telling the optimal price (or the popular price) backed up by data from Steam. 
 
-Figuring out what to charge for a game isn't easy. Too cheap and you might lose money. Too expensive and people might skip it. With Steam’s constant sales and changing prices, it's hard to know what works.
-
-This project is my practice/ test to learn machine learning and develop predictive AI to learn from past data and suggest a price or price range that could lead to better results, like more owners or better ratings.
+This project is my practice/ test to learn machine learning and develop predictive AI to learn from past data and suggest a price or price range that could lead to better decision making. 
 
 ### Basic project structure plan
 ```
