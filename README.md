@@ -16,19 +16,6 @@ project/
 └── src/                     # Scripts for preprocessing, training, prediction
 ```
 
-
-
-### Objectives
-
-- Understand the pricing dynamics of games on Steam  
-- Develop AI models to predict optimal pricing  
-- Interpret model outputs and explain results  
-- Turn insights into practical pricing guidance  
-- (Optional) Create a pricing suggestion tool  
-- Evaluate model performance using metrics like MAE (Mean Absolute Error) or RMSE
-- Compare predicted vs. actual price (or tier) on a test set
-
-
 ### Roadmap
 
 1. Data collection
