@@ -80,3 +80,7 @@ project/
 ### Dependencies
 - Python 3.10+
 - Key libraries: pandas, scikit-learn, xgboost, shap, matplotlib, streamlit
+
+### License 📜
+
+MIT License
