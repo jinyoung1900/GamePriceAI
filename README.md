@@ -4,7 +4,7 @@ When I was working in a game company, it was pretty hard determining the price j
 
 This project is my practice/ test to learn machine learning and develop predictive AI to learn from past data and suggest a price or price range that could lead to better decision making. 
 
-### Basic project structure plan
+### project structure plan
 ```
 project/
 ├── README.md
@@ -19,32 +19,31 @@ project/
 ### Roadmap
 
 1. Data collection
-   - Get data from SteamSpy, Steam’s API, [Stream Scraper](https://github.com/FronkonGames/Steam-Games-Scraper) or find existing data sets from Kaggle:
-     - Need to contain Prices (base and discounted if possible)
+   - Steamdb, Steam’s API, [Stream Scraper](https://github.com/FronkonGames/Steam-Games-Scraper) or find existing data sets from Kaggle:
+     - Need to contain Prices (discounted ones if possible, may able to get it in steamdb)
      - Review scores, owner numbers, genre, tags, release year
 
 2. Data cleaning 
    - Prices should be in one currency e.g. usd
    - Create variables, e.g. discounted 5+ times or launch month
-   - Turn genres and tags into machine-readable inputs
    - Other basic cleaning like missing value, duplicates, or anything that comes to. 
 
 3. Targeting
-   - Either: Predict a price tier (cheap, standard, premium)
+   - Predict a price tier (cheap, standard, premium)
    - Or aim to estimate an exact price that leads to high engagement/ownership?
 
 4. Train AI
    - Use models like Random Forest or XGBoost
-   - Compare which models give the most accurate results. Use cross-validation and compare performance
+   - Compare which models give the most accurate results
 
 5. Analyse
    - Use SHAP or similar tools to see which features matter most
    - Plot key trends by genre, review score, or discount strategy. Maybe powerbi?
   
 6. Repeat  
-   - Tune hyperparameters and re-train  
+   - Tune hyperparameters and retrain  
    - Try new features or new targets  
-   - Evaluate against new or unseen game data
+   - Think if there is any unseen game data
 
 7. App making?   
    - Create a basic Streamlit app where users input their game info and get a price recommendation? optional 
