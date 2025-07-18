@@ -1,4 +1,4 @@
-## GamePriceAI: Estimating optimal steam game prices with AI
+# GamePriceAI: Estimating optimal steam game prices with AI
 
 When I was working in a game company, it was pretty hard determining the price just from guesswork alone. This is a small project I want to launch to see if I can solve that issue with predictive AI, telling the optimal price (or the popular price) backed up by data from Steam. 
 
